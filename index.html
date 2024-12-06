@@ -23,10 +23,11 @@
     <p><font size="0.5">网页主题由<a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>生成.</font></p>
   </div>
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item active" href="/">Home</a>
-    <a class="sidebar-nav-item " href="/menu1/">Code blocks</a>
-    <a class="sidebar-nav-item " href="/menu2/">More goodies</a>
-    <a class="sidebar-nav-item " href="/menu3/">Tags</a>
+    <a class="sidebar-nav-item active" href="/">博客首页</a>
+    <a class="sidebar-nav-item " href="/menu1/">笔记</a>
+    <a class="sidebar-nav-item " href="/menu2/">随想</a>
+    <a class="sidebar-nav-item " href="/menu3/">日常</a>
+    <a class="sidebar-nav-item " href="/menu4/">Tag导航</a>
   </nav>
   <div class="sidebar-item">
     <p><font size="0.5">&copy; JIANG, Chengzhe.</font></p>
@@ -39,7 +40,7 @@ content to avoid any CSS collisions with our real content. -->
   <div class="masthead">
     <div class="container">
       <h3 class="masthead-title">
-        <a href="/" title="Home">向下搜寻</a>
+        <a href="/" title="Home">狸猫太子</a>
         <small>  记录生活的地方</small>
       </h3>
     </div>
@@ -48,7 +49,8 @@ content to avoid any CSS collisions with our real content. -->
   <div class="container content">
 
 <!-- Content appended here -->
-<div class="franklin-content"><h1 id="how_to_use_franklin"><a href="#how_to_use_franklin" class="header-anchor">How to use Franklin</a></h1>
+<div class="franklin-content">
+<h1 id="how_to_use_franklin"><a href="#how_to_use_franklin" class="header-anchor">How to use Franklin</a></h1>
 <div class="franklin-toc"><ol><li><a href="#the_base_with_markdown">The base with Markdown</a><ol><li><a href="#symbols_and_html_entities">Symbols and html entities</a></li></ol></li><li><a href="#basic_franklin_extensions">Basic Franklin extensions</a><ol><li><a href="#divs">Divs</a></li><li><a href="#latex_and_maths">LaTeX and Maths</a></li><li><a href="#a_quick_note_on_whitespaces">A quick note on whitespaces</a></li><li><a href="#raw_html">Raw HTML</a></li></ol></li><li><a href="#pages_and_structure">Pages and structure</a></li><li><a href="#references_not_really">References &#40;not really&#41;</a></li><li><a href="#header_and_footer">Header and Footer</a></li></ol></div>
 <p>This section is meant as a refresher if you&#39;re new to Franklin. Have a look at both how the website renders and the corresponding markdown &#40;<code>index.md</code>&#41;. Modify at will to get a feeling for how things work&#33;</p>
 <p>Ps: if you want to modify the header or footer or the general look of the website, adjust the files in</p>
@@ -182,8 +184,9 @@ end</code></pre>
 <p>&#40;cf. <code>src/_html_parts/page_foot.html</code>&#41; which will then replace these braces with the content of a dictionary of variables at the key <code>fd_mtime</code>. This dictionary of variables is accessed locally by pages through <code>@def varname &#61; value</code> and globally through the <code>config.md</code> page via the same syntax.</p>
 <p>There&#39;s a few other such functions of the form <code>&#123;&#123;fname p₁ p₂&#125;&#125;</code> as well as support for conditional blocks. If you wander through the <code>src/_html_parts/</code> folder and its content, you should be able to see those in action.</p>
 <div class="page-foot">
-    知识共享许可协议<a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. 最近更新于 December 05, 2024.
-    网站由<a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>包和<a href="https://julialang.org">Julia语言</a>搭建.
+    <!-- 知识共享许可协议<a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.  -->
+    最近更新于2024-12-06.
+    网站由<a href="https://github.com/tlienart/Franklin.jl">Franklin.jl包</a>和<a href="https://julialang.org">Julia语言</a>搭建.
 </div>
 </div><!-- CONTENT ENDS HERE -->
       </div>  <!-- div: content container -->
