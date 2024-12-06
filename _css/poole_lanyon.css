@@ -61,7 +61,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #1748ab;
+  color: #12306d;
   text-decoration: none;
 }
 
@@ -108,8 +108,7 @@ h6 {
 
 /* Body text */
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 10px 0;
 }
 
 strong {
