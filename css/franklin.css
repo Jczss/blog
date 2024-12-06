@@ -188,7 +188,8 @@ td {
 }
 
 .franklin-content a {
-  color: #1748ab;
+  color: #12306d;
+  display: inline-block;
   text-decoration: none;
 }
 
