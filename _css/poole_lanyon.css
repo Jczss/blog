@@ -49,7 +49,6 @@ body {
 
 html {
   font-family: "思源宋体 CN";
-  font-size: 19px;
   line-height: 1.5;
 }
 
@@ -62,7 +61,7 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #1748ab;
   text-decoration: none;
 }
 
@@ -386,7 +385,7 @@ h6 {
   visibility: hidden;
   overflow-y: auto;
   font-family: "思源宋体 CN";
-  font-size: 0.875rem; /* 15px */
+  /* font-size: 0.875rem; */
   color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
   -webkit-transition: all 0.3s ease-in-out;
@@ -395,7 +394,7 @@ h6 {
 
 @media (min-width: 30rem) {
   .sidebar {
-    font-size: 0.75rem; /* 14px */
+    font-size: 85%;
   }
 }
 
@@ -535,6 +534,4 @@ a.sidebar-nav-item:focus {
   transform: translateX(14rem);
 }
 
-code {
-  font-size: 16px;
-}
+

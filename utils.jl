@@ -4,8 +4,7 @@ function hfun_bar(vname)
 end
 
 function hfun_m1fill(vname)
-  var = vname[1]
-  return pagevar("index", var)
+  return "<a href=\"www.baudu.com\">$(pagevar(vname[2], vname[1]))</a>"
 end
 
 function lx_baz(com, _)

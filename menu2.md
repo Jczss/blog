@@ -1,10 +1,7 @@
 +++
-title = "More goodies"
+title = "More_goodies!!"
 hascode = true
-rss = "A short description of the page which would serve as **blurb** in a `RSS` feed; you can use basic markdown here but the whole description string must be a single line (not a multiline string). Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don't expect maths or fancy styling to work; images should be ok though: ![](https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg)"
-rss_title = "More goodies"
-rss_pubdate = Date(2019, 5, 1)
-
+date = Date(2024,12,5)
 tags = ["syntax", "code", "image"]
 +++
 
@@ -84,7 +81,7 @@ end
 ```
 
 ~~~
-.hf {background-color:black;color:white;font-weight:bold;}
+<p>.hf {background-color:black;color:white;font-weight:bold;}</p>
 ~~~
 
 Can be called with `{{bar 4}}`: **{{bar 4}}**.
@@ -99,7 +96,7 @@ function hfun_m1fill(vname)
 end
 ```
 
-Which you can use like this `{{m1fill title}}`: **{{m1fill title}}**. Of course  in this specific case you could also have used `{{fill title menu1}}`: **{{fill title menu1}}**.
+Which you can use like this `{{m1fill menu1}}`: **{{m1fill date menu1}}**. Of course  in this specific case you could also have used `{{fill title menu1}}`: **{{fill title menu1}}**.
 
 Of course these examples are not very useful, in practice you might want to use it to generate actual HTML in a specific way using Julia code.
 For instance you can use it to customise how [tag pages look like](/menu3/#customising_tag_pages).

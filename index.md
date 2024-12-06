@@ -1,5 +1,8 @@
-@def title = "Jcz的博客"
-@def tags = ["syntax", "code"]
++++
+title = "Jcz的博客"
+date = Date(2024,12,5)
+tags = ["syntax", "code"]
++++
 
 # How to use Franklin
 
