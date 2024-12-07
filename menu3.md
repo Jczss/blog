@@ -1,9 +1,9 @@
 +++
-title = "Test"
+title = "日常"
 date = Date(2024,12,5)
-tag = ["syntax"]
+tag = ["主页"]
 +++
 
-# Hi, I'm Here
+# 日常
 
-[asd](../menu3)
+{{recentlist daily}}

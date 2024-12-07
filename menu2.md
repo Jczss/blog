@@ -1,8 +1,7 @@
 +++
-title = "More_goodies!!"
-hascode = true
-date = Date(2024,12,5)
-tags = ["syntax", "code", "image"]
+title = "随笔"
+date = Date(2024,12,7)
+tags = ["随笔", "主页"]
 +++
 
 # More goodies

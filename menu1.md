@@ -1,13 +1,17 @@
 +++
 title = "笔记"
-hascode = true
-tags = ["人生", "回忆", "syntax"]
+date = Date(2024,12,7)
+tags = ["主页"]
 +++
 
 
-# 
+# 笔记
 
-\toc
+{{subindexcatalog notes}}
+
+此处收录系列笔记. 
+
+{{subindexlist notes}}
 
 ## Live evaluation of code blocks
 

@@ -188,7 +188,7 @@ td {
 }
 
 .franklin-content a {
-  color: #12306d;
+  color: #14419d;
   display: inline-block;
   text-decoration: none;
 }
@@ -325,6 +325,11 @@ code {
     BOXES
 ================================================================== */
 
+/* =========================================
+Use @@colbox-blue
+...
+@@ to show the box
+========================================== */
 .franklin-content .colbox-blue {
   background-color: #eef3f5;
   padding-top: 5px;

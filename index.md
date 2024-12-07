@@ -1,7 +1,7 @@
 +++
 title = "Jcz的博客"
 date = Date(2024,12,5)
-tags = ["syntax", "code"]
+tags = ["主页", "随笔"]
 +++
 
 # How to use Franklin
@@ -15,6 +15,8 @@ Modify at will to get a feeling for how things work!
 Ps: if you want to modify the header or footer or the general look of the website, adjust the files in
 * `src/_css/` and
 * `src/_html_parts/`.
+
+[测试链接](./notes/website/01_git&github)
 
 ## The base with Markdown
 
