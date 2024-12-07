@@ -1,11 +1,11 @@
 +++
 title = "笔记"
 hascode = true
-tags = ["syntax", "code"]
+tags = ["人生", "回忆", "syntax"]
 +++
 
 
-# Working with code blocks
+# 
 
 \toc
 
