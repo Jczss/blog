@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Consolas";
-  src: url("/asset/fonts/consola.ttf");
+  src: url("/assets/fonts/consola.ttf");
 }
 
 @font-face {
   font-family: "思源宋体 CN";
-  src: url("/asset/fonts/HanSerif.ttf");
+  src: url("/assets/fonts/HanSerif.ttf");
 }
 
 :root {
