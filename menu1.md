@@ -7,9 +7,11 @@ tags = ["主页"]
 
 # 笔记
 
+此处收录系列笔记. 
+
 {{subindexcatalog notes}}
 
-此处收录系列笔记. 
+
 
 {{subindexlist notes}}
 

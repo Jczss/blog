@@ -290,6 +290,7 @@ h6 {
  */
 
 .wrap {
+  background:  url("/assets/background.png") repeat center fixed;
   position: relative;
   width: 100%;
 }

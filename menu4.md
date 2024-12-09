@@ -7,7 +7,7 @@ tag = ["主页"]
 
 **Example**:
 
-* page with tag [`syntax`](/tag/syntax/)
+* page with tag [`主页`](/tag/主页/)
 * page with tag [`image`](/tag/image/)
 * page with tag [`code`](/tag/code/)
 
