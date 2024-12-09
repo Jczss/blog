@@ -17,13 +17,17 @@ div_content = "franklin-content"
 ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
-generate_rss = true
-website_title = "Jcz的博客"
-website_descr = "Jcz记录生活的小世界"
-website_url   = "https://tlienart.github.io/FranklinTemplates.jl/"
+generate_rss = false
+website_title = "狸猫太子"
+website_descr = "狸猫太子的RSS订阅"
+website_url   = "jiangcz.asia"
 +++
 
 <!--
 Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
+\newcommand{\imgc}[1]{~~~<div class=center><img src=~~~!#1~~~></div>~~~}
+\newcommand{\imgl}[1]{~~~<div class=left><img src=~~~!#1~~~></div>~~~}
+\newcommand{\imgr}[1]{~~~<div class=right><img src=~~~!#1~~~></div>~~~}
+\newcommand{\hr}{~~~<div class="center"><ul><li><ul><li><ul><li></li></ul></li></ul></li></ul></div>~~~}

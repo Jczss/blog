@@ -28,6 +28,7 @@ html {
   font-family: MainFont;
   font-size: var(--normal);
   color: var(--text-color);
+  text-shadow: 0 0 6px #DDDDDD;
 }
 
 /* ==================================================================
@@ -45,6 +46,20 @@ html {
 
 .franklin-content .right {
   float: right;
+}
+
+.franklin-content .center{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.franklin-content .center ul{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .franklin-content .container img {
@@ -131,7 +146,7 @@ h6 {
 }
 
 .franklin-content h1 {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.3em;
   border-bottom: 3px double lightgrey;
   margin-top: 1.5em;
   margin-bottom: 1em;
@@ -139,7 +154,7 @@ h6 {
 
 .franklin-content h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px dashed lightgrey;
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -253,9 +268,10 @@ td {
 ================================================================== */
 
 .franklin-content img {
-  width: 70%;
+  width: 80%;
   text-align: center;
   padding-left: 10%;
+  padding-right: 10%;
 }
 
 .franklin-content .img-small img {

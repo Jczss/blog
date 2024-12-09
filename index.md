@@ -1,5 +1,5 @@
 +++
-title = "Jcz的博客"
+title = "狸猫太子"
 date = Date(2024,12,5)
 tags = ["主页", "随笔"]
 +++
@@ -114,6 +114,10 @@ Here's another quick one, a command to change the color:
 \newcommand{\col}[2]{~~~<span style="color:~~~#1~~~">~~~!#2~~~</span>~~~}
 
 This is \col{blue}{in blue} or \col{#bf37bc}{in #bf37bc}.
+
+\imgc{/assets/mybanner.jpg}
+
+\hr
 
 ### A quick note on whitespaces
 

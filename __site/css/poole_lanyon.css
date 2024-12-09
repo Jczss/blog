@@ -121,7 +121,7 @@ strong {
 ul,
 ol,
 dl {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -156,7 +156,7 @@ abbr[title] {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  margin: 1rem 0 1rem 0;
   border-radius: 5px;
 }
 
