@@ -3,20 +3,20 @@
 ================================================================== */
 
 @font-face {
-  font-family: Consolas;
+  font-family: Code;
   src: url("/assets/fonts/consola.ttf");
 }
 
 @font-face {
-  font-family: "思源宋体 CN";
-  src: url("/assets/fonts/HanSerif.ttf");
+  font-family: MainFont;
+  src: url("/assets/fonts/CangEr02-W03.ttf");
 }
 
 :root {
   --block-background: hsl(0, 0%, 94%);
   --output-background: hsl(0, 0%, 98%);
   --small: 16px;
-  --normal: 18px;
+  --normal: 19px;
   --text-color: hsv(0, 0%, 20%);
 }
 
@@ -25,7 +25,7 @@
 ================================================================== */
 
 html {
-  font-family: "思源宋体 CN";
+  font-family: MainFont;
   font-size: var(--normal);
   color: var(--text-color);
 }
@@ -71,7 +71,7 @@ html {
 
 .page-foot {
   font-size: 80%;
-  font-family: "思源宋体 CN";
+  font-family: MainFont;
   color: #a6a2a0;
   text-align: center;
   margin-top: 6em;
@@ -117,9 +117,9 @@ html {
     TITLES
 ================================================================== */
 
-.franklin-content h1 { font-size: 24px; font-weight: bold;}
-.franklin-content h2 { font-size: 22px; font-weight: bold;}
-.franklin-content h3 { font-size: 20px; font-weight: bold;}
+.franklin-content h1 { font-size: 28px; font-weight: bold;}
+.franklin-content h2 { font-size: 24px; font-weight: bold;}
+.franklin-content h3 { font-size: 22px; font-weight: bold;}
 
 .franklin-content h1,
 h2,
@@ -302,7 +302,7 @@ code {
   padding: 0.1em 0.2em;
   border-radius: 2px;
   font-size: var(--small);
-  font-family: Consolas;
+  font-family: Code;
 }
 
 /* .franklin-content code { */

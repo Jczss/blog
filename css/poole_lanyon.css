@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "思源宋体 CN";
+  font-family: MainFont;
   line-height: 1.5;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 html {
-  font-family: "思源宋体 CN";
+  font-family: MainFont;
 }
 
 h1,
@@ -275,7 +275,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "思源宋体 CN";
+  font-family: MainFont;
   font-weight: 400;
   color: #313131;
   letter-spacing: -0.025rem;
@@ -384,7 +384,7 @@ h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "思源宋体 CN";
+  font-family: MainFont;
   /* font-size: 0.875rem; */
   color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
