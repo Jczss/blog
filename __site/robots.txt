@@ -1,0 +1,4 @@
+Sitemap: jiangcz.asia/sitemap.xml
+
+User-agent: *
+Disallow:

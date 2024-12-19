@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{insert style.html}}
+  <title>标记Tag: {{fill fd_tag}}的文章</title>
+</head>
+<body>
+  {{insert sidebar.html}}
+  <div class="{{div_content}}">
+    <h1>Tag: {{fill fd_tag}}</h1>
+    {{custom_taglist}}
+    {{insert page_foot.html}}
+  </div>
+  <!-- close what is opened in sidebar.html -->
+    </div>  <!-- div: content container -->
+  </div> <!-- wrap -->
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+</body>
+</html>
