@@ -28,7 +28,7 @@ html {
   font-family: MainFont;
   font-size: var(--normal);
   color: var(--text-color);
-  text-shadow: 0 0 6px #DDDDDD;
+  /* text-shadow: 0 0 6px #DDDDDD; */
 }
 
 /* ==================================================================
