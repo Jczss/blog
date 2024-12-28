@@ -1,3 +1,14 @@
+function hfun_p(vname)
+    c = IOBuffer()
+    write(c, repeat("&ensp;", Meta.parse(vname[1])))
+    return String(take!(c))
+end
+function hfun_p()
+    c = IOBuffer()
+    write(c, repeat("&ensp;", 4))
+    return String(take!(c))
+end
+
 function hfun_subindexcatalog(vname)
 	c = IOBuffer()
 	write(c, "<div alss=\"franklin-toc\"><ul>")
@@ -111,3 +122,5 @@ function lx_baz(com, _)
     # do whatever you want here
     return uppercase(brace_content)
 end
+
+# 公式引用方式: \label \eqref

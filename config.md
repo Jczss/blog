@@ -27,7 +27,9 @@ website_url   = "jiangcz.asia"
 Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
-\newcommand{\imgc}[1]{~~~<div class=center><img src=~~~!#1~~~></div>~~~}
-\newcommand{\imgl}[1]{~~~<div class=left><img src=~~~!#1~~~></div>~~~}
-\newcommand{\imgr}[1]{~~~<div class=right><img src=~~~!#1~~~></div>~~~}
+\newcommand{\img}[2]{~~~<img src=~~~!#1~~~ width=~~~!#2~~~>~~~}
+\newcommand{\imgc}[2]{~~~<div class=center><img src=~~~!#1~~~ width=~~~!#2~~~></div>~~~}
+\newcommand{\imgl}[2]{~~~<div class=left><img src=~~~!#1~~~ width=~~~!#2~~~></div>~~~}
+\newcommand{\imgr}[2]{~~~<div class=right><img src=~~~!#1~~~ width=~~~!#2~~~></div>~~~}
 \newcommand{\hr}{~~~<div class="center"><ul><li><ul><li><ul><li></li></ul></li></ul></li></ul></div>~~~}
+\newcommand{\br}{~~~<br>~~~}
