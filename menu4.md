@@ -12,7 +12,7 @@ tags = ["主页"]
 
 02年 / 江苏 / 计算数学 / 博士生在读 / ENFP. 
 
-\imgc{/assets/figures/MBTI.jpg}{50%}
+\imgc{/assets/figures/MBTI.jpg}{400px}
 
 
 ## 联系方式
