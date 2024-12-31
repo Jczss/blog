@@ -42,7 +42,7 @@ function hfun_recentlist(vname)::String
 	write(c, "<ul>")
 	pages = readdir(vname[1])
 	seriesindex = [pagevar(joinpath(vname[1], page), "date") for page in pages]
-	idxs = sortperm(seriesindex)
+	idxs = sortperm(seriesindex, rev=true)
 	if length(vname) > 1
 		len = Meta.parse(vname[2])
 		len = min(length(idxs), len)
