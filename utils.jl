@@ -1,3 +1,15 @@
+function hfun_bili(vname)
+    c = IOBuffer()
+    write(c, "<div class=\"center\">")
+    write(c, vname[1])
+    write(c, " ")
+    # write(c, " width=\"352px\" height=\"198px\" ")
+    str = join(vname[2:end], " ")
+    write(c, str)
+    write(c, "</div>")
+    return String(take!(c))
+end   
+
 function hfun_p(vname)
     c = IOBuffer()
     write(c, repeat("&ensp;", Meta.parse(vname[1])))

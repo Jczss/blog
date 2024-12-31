@@ -6,11 +6,15 @@
 }
 
 /* on wide screens, fix content width to a max value */
-@media (min-width: 940px) {
+@media (min-width: 800px) {
   .franklin-content {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .franklin-content .center iframe{
+    width: 480px;
+    height: 270px;
   }
 }
 
