@@ -6,7 +6,9 @@ tags = ["主页", "随笔"]
 
 # 空想、实证与人生
 
-> 我们必须知道. 我们必将知道. {{p}} —— D·希尔伯特
+~~~
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=372801&auto=0&height=66"></iframe>
+~~~
 
 ## 1
 
