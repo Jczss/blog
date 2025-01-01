@@ -10,5 +10,5 @@ tags = ["主页", "随笔"]
 
 ## 1
 
-{{bili <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113230085162774&bvid=BV11FxaeWE6L&cid=26087067152&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>}}
+{{bili <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113241577490739&bvid=BV1hpxDenEH5&cid=26118392393&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>}}
 
